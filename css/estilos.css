@@ -6,7 +6,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #fff;
+  background: rgb(54, 54, 54);
   font-family: "Open Sans";
   font-size: 16px; }
 
@@ -15,31 +15,33 @@ body {
   max-width: 1000px;
   margin: auto;
   overflow: hidden; }
+  
 
 /* ----- ----- HEADER ----- ----- */
 header {
-  background: url("../img/bg.jpg"), #49A3D6;
+  background: url("../img/bhnuevo.jpg"), #000000;
   background-repeat: no-repeat;
-  background-position: center;
-  max-height: 600px; }
+ 
+   }
   header .menu {
     margin: 40px 0;
     text-align: right; }
     header .menu a {
       margin: 0 20px;
-      color: #fff;
+      color: rgb(9, 255, 0);
       padding-bottom: 9px;
       font-size: 1em;
       display: inline-block;
       text-decoration: none;
       border-bottom: 2px solid transparent; }
       header .menu a:hover {
-        border-bottom: 2px solid #fff; }
+        border-bottom: 2px solid rgb(70, 248, 0); }
   header .contenedor-texto {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 190px 0; }
+    margin: 190px 0;
+    color: #277902;}
     header .contenedor-texto .texto {
       border: 2px solid rgba(255, 255, 255, 0.5);
       border-radius: 3px;
@@ -47,7 +49,7 @@ header {
       text-align: center;
       padding: 20px 60px; }
       header .contenedor-texto .texto h1, header .contenedor-texto .texto h2 {
-        color: #fff;
+        color: rgb(91, 248, 0);
         font-weight: 300;
         margin: 0; }
       header .contenedor-texto .texto .nombre {
@@ -70,7 +72,7 @@ header {
       vertical-align: top;
       border: 5px solid rgba(255, 255, 255, 0.2); }
   .main .acerca-de .texto {
-    color: #5a5a5a;
+    color: #49ca28;
     font-weight: 600;
     font-size: 1em;
     line-height: 30px;
@@ -81,13 +83,13 @@ header {
       margin-bottom: 40px;
       line-height: 34px;
       font-weight: 300;
-      color: #dd820d;
+      color: #0fb900;
       text-align: center; }
     .main .acerca-de .texto .bold {
-      color: #3895ea;
+      color: #009625;
       text-decoration: underline; }
 .main .trabajos {
-  background: #f2f2f2;
+  background: #131313;
   padding: 60px 0; }
   .main .trabajos .contenedor {
     overflow: hidden; }
@@ -96,7 +98,7 @@ header {
     line-height: 34px;
     margin-bottom: 60px;
     font-weight: 300;
-    color: #323068;
+    color: #0800f5;
     text-align: center; }
   .main .trabajos .contenedor-trabajos {
     display: flex;
